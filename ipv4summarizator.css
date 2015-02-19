@@ -1,0 +1,99 @@
+
+#ipsum_main_container {
+	font-family: 'Courier New';
+	font-size: 14px;
+}
+
+#ipsum_main_container #ipsum_input_fields input{
+    padding:0 7px;
+    width:80px;
+    height:30px;
+    font-size:12px;
+    display:block;
+    color:#4e4a5c;
+    border:1px solid #6fafa1;
+}
+
+#ipsum_main_container #ipsum_input_fields input:focus{ 
+	-webkit-box-shadow:inset  0px 0px 2px #96b3b7; 
+	-moz-box-shadow:inset  0px 0px 2px #96b3b7; 
+	box-shadow:inset  0px 0px 2px #96b3b7; 
+}
+
+#ipsum_main_container input.ipsum_submit{
+    color:#fff;
+    font-size:12px;
+    padding:0 7px;
+    width:80px;
+    height:30px;
+    margin-right: 10px;
+    background-color: #ff6002;
+    border:0px;
+    cursor: pointer;
+    cursor: hand;
+}
+
+#ipsum_main_container table td.label{
+	font-weight: bold;
+	width: 100px;
+}
+
+#ipsum_main_container table td.decimal{
+	width: 150px;
+}
+
+#ipsum_main_container table td.netmask{
+	width: 100px;
+}
+
+#ipsum_main_container table td.binary{
+	color: #969696;
+}
+
+#ipsum_main_container table td.bunt{
+	color: #0066FF;
+}
+
+#ipsum_main_container table td.bunt_2	{
+	color: #ff6002;
+}
+
+#ipsum_main_container table td.bunt_3	{
+	color: #2f913c;
+}
+
+#ipsum_main_container table tr.summarized	{
+	height:50px;
+}
+
+#ipsum_main_container table#ipsum_res_table{
+	margin-top: 30px;
+}
+
+#ipsum_main_container span.bunt_3	{
+	color: #2f913c;
+}
+
+#ipsum_main_container span.common_part	{
+	color: #ff6002;
+	font-weight: bold;
+}
+
+#ipsum_main_container p.title {
+	font-weight: bold;
+	font-size: 18px;
+	color: #ff6002;
+	margin-bottom: 5px;
+}
+
+#ipsum_main_container table.subnet_info {
+	margin: 5px 0px;
+}
+
+#ipsum_main_container #ipsum_errorbox p{
+	color: #c86165;
+}
+
+#ipsum_main_container #ipsum_buttonbox {
+	margin: 15px 0px;
+}
